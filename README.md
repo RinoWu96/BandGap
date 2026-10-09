@@ -3,7 +3,11 @@
 A desktop GUI tool for extracting the **band gap from single STS spectra** (Omicron `.dat` format).
 It locates the conduction band edge (Ec) and valence band edge (Ev) in each dI/dV spectrum and reports the band gap Eg, with three detection methods to compare.
 
-Companion to [STS-map](https://github.com/RinoWu96/STS-map), which handles full line scans.
+**Related STM/STS data-processing tools:**
+
+- [STS-map](https://github.com/RinoWu96/STS-map): STS line-scan analysis: dI/dV maps, CBM/VBM detection and band gap along the line
+- **BandGap** (this repo): band gap extraction from single STS spectra
+- [STM-GPA](https://github.com/RinoWu96/STM-GPA): lattice-strain mapping of STM topographs with geometric phase analysis
 
 ## Features
 
